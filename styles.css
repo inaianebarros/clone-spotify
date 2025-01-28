@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    background-color: black;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 12px;
+    width: 300px;
+}*
+
+.sidebar__navigation{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    cursor: pointer;
+}
+.sidebar__navigation.logo{
+    background-color: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+.sidebar__navigation .logo img{
+    width: 80px;
+}
+
+.sidebar nav ul{
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+
+}
+
+.sidebar nav ul li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+    color: #B3B3B3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 6px 8px;
+    color: #B3B3B3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;  
+}
+
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.library .library__button{
+    display: flex;
+    margin-right: 10px;
+    color: #B3B3B3;
+    background-color: transparent;
+    border: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    text-transform: none;
+
+}
+
+.library .library__button .fa{
+    font-size: 20px;
+    font-weight: 300;
+    color: #B3B3B3;
+    margin-right: 10px;
+    padding-right: 8px;
+}
+ .library .library__content .fa-plus{
+    padding: 24px 10px;
+ }
+
