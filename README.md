@@ -62,3 +62,4 @@ Agora o projeto estará rodando! 🚀
 Abra o navegador e acesse http://localhost:3000 para visualizar a aplicação.
 
 <h2>Spotify Results</h2>
+<img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2NlZjY4cmRpMzJjcXlrNm56bGZrOG1pbzZ3cWdpb2JkNXlzOHRzOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SO9swxa6mSwJ74ozGg/giphy.gif" alt="Spotify GIF" width="580" height="283"/>
